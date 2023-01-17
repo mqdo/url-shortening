@@ -1,10 +1,17 @@
 import React from 'react';
 
-import './App.css';
+import { Header, Hero, Shorten, Advanced, CallToAction, Footer } from './components';
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <Header />
+      <Hero />
+      <Shorten />
+      <Advanced />
+      <CallToAction />
+      <Footer />
+    </>
   )
 }
 
