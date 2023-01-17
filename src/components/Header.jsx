@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Header = ({ toggleMenu, setToggleMenu }) => {
   return (
-    <div className='mx-auto max-w-[1180px] h-16 md:h-28 flex justify-between items-center p-4 md:p-8 fixed left-0 right-0 top-0'>
+    <div className='bg-white mx-auto max-w-[1180px] h-16 md:h-28 flex justify-between items-center p-4 md:p-8 fixed left-0 right-0 top-0 z-50'>
       <div className='flex justify-between items-center gap-10'>
         <img src={logo} alt='logo' className='w-auto h-7' />
         <div className='hidden md:flex justify-between items-center gap-6'>

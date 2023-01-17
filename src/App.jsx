@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-      <div className='mt-16 md:mt-28' onClick={() => setToggleMenu(false)}>
+      <div className='mt-16 md:mt-28 w-full overflow-x-hidden' onClick={() => setToggleMenu(false)}>
         <Hero />
         <Shorten />
         <Advanced />
