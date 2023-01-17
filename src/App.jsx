@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Header, Hero, Shorten, Advanced, CallToAction, Footer } from './components';
 
 const App = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <>
-      <Header />
-      <Hero />
-      <Shorten />
-      <Advanced />
-      <CallToAction />
-      <Footer />
+      <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
+      <div className='mt-16 md:mt-28' onClick={() => setToggleMenu(false)}>
+        <Hero />
+        <Shorten />
+        <Advanced />
+        <CallToAction />
+        <Footer />
+      </div>
     </>
   )
 }
