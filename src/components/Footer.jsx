@@ -1,10 +1,13 @@
 import React from 'react';
 
 import logo from '../assets/images/logo-white.svg';
-import facebook from '../assets/images/icon-facebook.svg';
-import twitter from '../assets/images/icon-twitter.svg';
 import pinterest from '../assets/images/icon-pinterest.svg';
 import instagram from '../assets/images/icon-instagram.svg';
+
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaPinterest } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -34,16 +37,16 @@ const Footer = () => {
         </div>
         <div className='pt-8 md:p-0 flex gap-6'>
           <a href='' className='hover:opacity-80'>
-            <img src={facebook} alt='facebook icon' className='h-5 w-auto' />
+            <FaFacebookSquare size={22} />
           </a>
           <a href='' className='hover:opacity-80'>
-            <img src={twitter} alt='twitter icon' className='h-5 w-auto' />
+            <FaTwitter size={22} />
           </a>
           <a href='' className='hover:opacity-80'>
-            <img src={pinterest} alt='pinterest icon' className='h-5 w-auto' />
+            <FaPinterest size={22} />
           </a>
           <a href='' className='hover:opacity-80'>
-            <img src={instagram} alt='instagram icon' className='h-5 w-auto' />
+            <FaInstagram size={22} />
           </a>
         </div>
       </div>
