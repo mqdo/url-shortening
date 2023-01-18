@@ -13,8 +13,8 @@ const App = () => {
         <div className='w-full bg-gray-100'>
           <Shorten />
           <Advanced />
+          <CallToAction />
         </div>
-        <CallToAction />
         <Footer />
       </div>
     </>

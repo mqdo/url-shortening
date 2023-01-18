@@ -39,7 +39,7 @@ const Shorten = () => {
   };
 
   return (
-    <div className='px-4 pt-16 md:px-8 max-w-[1180px] mx-auto mt-[130px] sm:mt-[125px] md:mt-[120px] -my-8'>
+    <div className='px-4 pt-16 md:px-8 max-w-[1180px] mx-auto mt-[130px] sm:mt-[125px] md:mt-[120px] -my-16 md:-my-8'>
       <div className="-translate-y-[130px] sm:-translate-y-[125px] md:-translate-y-[120px] flex flex-col gap-4">
         <form onSubmit={handleSubmitLink} className='w-full flex flex-col sm:flex-row gap-5 bg-primary-700 bg-boost-mobile md:bg-boost-desktop bg-top bg-cover p-5 sm:p-8 rounded-lg'>
           <div className=' w-full sm:w-[82%]'>
@@ -57,7 +57,7 @@ const Shorten = () => {
               : null
             }
           </div>
-          <button type="submit" className='w-full sm:w-[18%] bg-primary-400 h-10 sm:h-12 rounded-md text-white font-medium hover:opacity-80'>Shorten It!</button>
+          <button type="submit" className='w-full sm:w-[18%] bg-primary-400 h-10 sm:h-12 rounded-md text-white font-bold hover:opacity-80'>Shorten It!</button>
         </form>
         {linksList.map((link, index) => (
           <LinkCard key={index} link={link} />
