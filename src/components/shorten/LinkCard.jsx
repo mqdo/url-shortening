@@ -17,7 +17,7 @@ const LinkCard = ({ link }) => {
         <p>{link.original}</p>
       </div>
       <div className='p-3 sm:p-4 pt-0 w-full flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 text-primary-400'>
-        <p className='w-full text-right'>{link.short}</p>
+        <p className='w-full sm:text-right'>{link.short}</p>
         <CopyToClipboard text={link.short} onCopy={handleCopy}>
           <button className={`${copied ? 'bg-primary-700' : 'bg-primary-400'} w-full sm:max-w-[150px] rounded-md h-8 text-white text-sm hover:opacity-80`}>{copied ? 'Copied' : 'Copy'}</button>
         </CopyToClipboard>

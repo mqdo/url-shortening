@@ -39,7 +39,7 @@ const Shorten = () => {
   };
 
   return (
-    <div className="px-4 py-20 md:px-8 max-w-[1180px] mx-auto flex flex-col gap-4">
+    <div className="px-4 py-16 md:px-8 max-w-[1180px] mx-auto flex flex-col gap-4">
       <form onSubmit={handleSubmitLink} className='w-full flex flex-col sm:flex-row gap-5 bg-primary-700 bg-boost-mobile md:bg-boost-desktop bg-top bg-cover p-5 sm:p-8 rounded-lg'>
         <div className=' w-full sm:w-[82%]'>
           <input
