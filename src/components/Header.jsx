@@ -9,10 +9,16 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
     const header = document.getElementById('header');
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
       header.classList.add('md:h-16');
+      header.classList.add('md:rounded-full');
+      header.classList.add('md:mt-2');
+      header.classList.add('md:shadow-sm');
       header.classList.remove('md:h-28');
     } else {
-      header.classList.add('md:h-28');
       header.classList.remove('md:h-16');
+      header.classList.remove('md:rounded-full');
+      header.classList.remove('md:mt-2');
+      header.classList.remove('md:shadow-sm');
+      header.classList.add('md:h-28');
     }
   }
 
@@ -24,7 +30,7 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
   }, [])
 
   return (
-    <div id='header' className='bg-white mx-auto max-w-[1180px] h-16 md:h-28 flex justify-between items-center p-4 md:p-8 fixed left-0 right-0 top-0 z-50 rounded-b-md'>
+    <div id='header' className='bg-white mx-auto max-w-[1180px] h-16 md:h-28 flex justify-between items-center p-4 md:p-8 fixed left-0 right-0 top-0 z-50'>
       <div className='flex justify-between items-center gap-10'>
         <img src={logo} alt='logo' className='w-auto h-7' />
         <div className='hidden md:flex justify-between items-center gap-6'>
