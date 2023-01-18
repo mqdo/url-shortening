@@ -19,6 +19,10 @@ module.exports = {
           900: 'hsl(260, 8%, 14%)',
         },
       },
+      backgroundImage: {
+        'boost-desktop': "url('/src/assets/images/bg-boost-desktop.svg')",
+        'boost-mobile': "url('/src/assets/images/bg-boost-mobile.svg')",
+      },
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
       },

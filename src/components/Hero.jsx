@@ -13,7 +13,7 @@ const Hero = () => {
         <div className='max-w-[480px]'>
           <p className='my-4 md:m-0 text-center md:text-left break-normal text-neutral-400 text-lg'>Build your brand's recognition and get detailed insights on how your links are performing.</p>
         </div>
-        <button className='mt-4 md:mt-8 h-12 px-8 rounded-full bg-primary-400 text-white font-semibold hover:opacity-60'>Get Started</button>
+        <button className='mt-4 md:mt-8 h-12 px-8 rounded-full bg-primary-400 text-white font-medium hover:opacity-80'>Get Started</button>
       </div>
     </div>
   )
