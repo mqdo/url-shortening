@@ -24,7 +24,7 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
   }, [])
 
   return (
-    <div id='header' className='bg-gray-50 mx-auto max-w-[1180px] h-16 md:h-28 flex justify-between items-center p-4 md:p-8 fixed left-0 right-0 top-0 z-50 rounded-b-md'>
+    <div id='header' className='bg-white mx-auto max-w-[1180px] h-16 md:h-28 flex justify-between items-center p-4 md:p-8 fixed left-0 right-0 top-0 z-50 rounded-b-md'>
       <div className='flex justify-between items-center gap-10'>
         <img src={logo} alt='logo' className='w-auto h-7' />
         <div className='hidden md:flex justify-between items-center gap-6'>

@@ -4,7 +4,7 @@ import heroImage from '../assets/images/illustration-working.svg';
 
 const Hero = () => {
   return (
-    <div className='max-w-[1180px] mx-auto text-gray-900 flex flex-col md:flex-row-reverse pl-4 md:p-0 relative'>
+    <div className=' max-w-[1180px] mx-auto text-gray-900 flex flex-col md:flex-row-reverse pl-4 md:p-0 relative'>
       <div>
         <img src={heroImage} alt='hero image' className='h-[340px] sm:h-[482px] mx-auto w-auto object-cover object-left md:object-none md:translate-x-[220px]' />
       </div>

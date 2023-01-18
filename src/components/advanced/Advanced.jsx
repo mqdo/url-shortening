@@ -13,7 +13,7 @@ const Advanced = () => {
         <p className='text-sm text-neutral-400 font-medium leading-loose'>Track how your links are performing across the web with our advanced statistics dashboard</p>
       </div>
       <div className='relative'>
-        <div className='relative z-20 md:flex md:pt-12'>
+        <div className='relative z-20 md:flex md:py-16'>
           <div>
             <AdvancedCard imgSrc={brandRecognition} title='Brand Recognition' details="Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content." />
           </div>
