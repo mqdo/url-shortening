@@ -10,7 +10,7 @@ const Advanced = () => {
     <div className="px-4 md:px-8 max-w-[1180px] mx-auto flex flex-col gap-4 overflow-hidden">
       <div className='text-center max-w-[500px] mx-auto'>
         <h2 className='text-2xl sm:text-3xl font-bold pb-4'>Advanced Statistics</h2>
-        <p className='text-sm text-neutral-400 font-medium leading-loose'>Track how your links are performing across the web with our advanced statistics dashboard</p>
+        <p className='text-sm md:text-base text-neutral-400 font-medium leading-loose'>Track how your links are performing across the web with our advanced statistics dashboard</p>
       </div>
       <div className='relative'>
         <div className='relative z-20 md:flex md:py-16'>
